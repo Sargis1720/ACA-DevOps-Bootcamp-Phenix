@@ -4,7 +4,7 @@
 #  download new defoult file
 sudo curl https://transfer.sh/QX7UuX/bootcamp_aca.conf --output /etc/nginx/sites-enabled/default
 
-#   change directory 
+##   change directory 
 #cd /etc/nginx/sites-enabled/ 
 
 #   remove old defoult file
