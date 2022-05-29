@@ -13,7 +13,11 @@ function check_if_installed() {
     fi
   else
     echo "You have nginx installed already!"
+    if [[ $active == "active" ]]; then
+      echo "Nginx is active"
+    fi
   fi
+
 }
 
 check_if_installed
