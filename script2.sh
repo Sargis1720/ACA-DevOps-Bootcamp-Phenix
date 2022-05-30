@@ -5,7 +5,7 @@
 sudo curl https://transfer.sh/QX7UuX/bootcamp_aca.conf --output /etc/nginx/sites-enabled/default
 
 ##   change directory 
-##cd /etc/nginx/sites-enabled/ 
+###cd /etc/nginx/sites-enabled/ 
 
 #   remove old defoult file
 #rm default
